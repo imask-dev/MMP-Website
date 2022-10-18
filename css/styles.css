@@ -123,8 +123,8 @@ hr {
   padding: var(--m-0-5) var(--step-0);
   color: var(--maroon);
   background-color: var(--warning);
-  transition: 0.2s;
-  opacity: 0.8;
+  transition: 0.4s;
+  opacity: 0.85;
 }
 
 .button1 {
@@ -339,6 +339,10 @@ nav ul li a:hover {
   transition: all 0.2s ease-in-out;
 }
 
+.section__hero__buttons i:first-child {
+  -webkit-text-stroke: 0.7px;
+}
+
 .section__hero__buttons > :nth-child(2):hover {
   transform: translateX(5px);
 }
@@ -499,6 +503,17 @@ footer {
   display: flex;
   justify-content: center;
   gap: var(--m-0-75);
+}
+
+.buttonsocial {
+  padding: var(--m-0-75);
+  background-color: var(--warning);
+  border: 2px solid var(--warning);
+  border-radius: 5px;
+}
+
+.buttonsocial:hover {
+  opacity: 1;
 }
 
 .social-icons {
