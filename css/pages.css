@@ -1,0 +1,72 @@
+:root {
+  --header-height: 3rem;
+
+  /* MY COLORS */
+
+  --offwhite: rgb(237, 233, 224);
+  --white: rgb(255, 255, 255);
+  --teal: rgb(23, 57, 92);
+  --warning: #ffc107;
+  --goldenrod: #c29b02;
+  --black: rgb(0, 0, 0);
+  --maroon: rgb(128, 0, 0);
+
+  /*========== Colors ==========*/
+
+  /*========== Font and typography ==========*/
+
+  --body-font: "Poppins", sans-serif;
+
+  /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+
+  --big-heading: 3.5rem;
+  --small-heading: calc(1.325rem + 0.9vw) !important;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /* BIG FONTS */
+
+  --big-1-font-size: 5rem;
+  --big-2-font-size: 4.5rem;
+  --big-3-font-size: 4rem;
+  --big-4-font-size: 3.5rem;
+  --big-5-font-size: 3rem;
+  --big-6-font-size: 2.5rem;
+
+  /*========== Font weight ==========*/
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margins Bottom ==========*/
+
+  /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+
+  --m-0-25: 0.25rem;
+  --m-0-5: 0.5rem;
+  --m-0-75: 0.75rem;
+  --m-1: 1rem;
+  --m-1-5: 1.5rem;
+  --m-2: 2rem;
+  --m-2-5: 2.5rem;
+  --m-3: 3rem;
+
+  --step--2: clamp(0.69rem, calc(0.61rem + 0.43vw), 0.96rem);
+  --step--1: clamp(0.83rem, calc(0.72rem + 0.59vw), 1.2rem);
+  --step-0: clamp(1rem, calc(0.84rem + 0.8vw), 1.5rem);
+  --step-1: clamp(1.2rem, calc(0.98rem + 1.08vw), 1.88rem);
+  --step-2: clamp(1.44rem, calc(1.15rem + 1.45vw), 2.34rem);
+  --step-3: clamp(1.73rem, calc(1.34rem + 1.92vw), 2.93rem);
+  --step-4: clamp(2.07rem, calc(1.57rem + 2.54vw), 3.66rem);
+  --step-5: clamp(2.49rem, calc(1.82rem + 3.34vw), 4.58rem);
+  --step-6: clamp(2.99rem, calc(2.11rem + 4.38vw), 5.72rem);
+
+  --font-heading-small: clamp(1.5rem, 5vw, 2rem);
+  --font-heading-big: clamp(2.5rem, 8vw, 5rem);
+  --font-content: clamp(0.8rem, 3vw, 1rem);
+}
+
