@@ -565,11 +565,23 @@ footer {
   margin-block: var(--step-1);
 }
 
-#more1,
-#more2,
-#more3,
-#more4 {
+#more {
   display: none;
+  position: relative;
+  animation: visibility 1s;
+}
+
+#dots {
+  display: inline;
+}
+
+@keyframes visibility {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
 }
 
 .section__blog__img {
