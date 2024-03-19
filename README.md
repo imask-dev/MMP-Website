@@ -34,7 +34,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/markaz-makkah-perfumery-sample-website.git
+   git clone https://github.com/imask-dev/MMP-Website.git
    ```
 
 2. Open the project in your preferred code editor.
